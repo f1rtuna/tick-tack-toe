@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: linear-gradient(to right, rgba(107, 7, 7, 0.45), rgba(3, 37, 188, 0.34)), url("images/istock_000059142020_medium_wide-2f1ead15ae66b53f586bf9601bb71346f99790ce.jpg");
+    color: white;
+    background-repeat: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    opacity: .95;
+    text-align: center;
+}
+.choices{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 5% 5% 5%;
+}
+
+.choices button{
+    font-size: 5rem;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.choices button:hover {
+    cursor: pointer;
+}
+
+.title{
+    font-size: 5rem;
+}
+
+h3{
+    margin: 5% 0% 2% 0%;
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+.Scores{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin: 5% 15% 5% 15%;
+}
+
